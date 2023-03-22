@@ -1,0 +1,382 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeatherInformation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIManager",
+        "printedName": "APIManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIManager",
+                "printedName": "WeatherInformation.APIManager",
+                "usr": "s:18WeatherInformation10APIManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18WeatherInformation10APIManagerC14sharedInstanceACvpZ",
+            "mangledName": "$s18WeatherInformation10APIManagerC14sharedInstanceACvpZ",
+            "moduleName": "WeatherInformation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIManager",
+                    "printedName": "WeatherInformation.APIManager",
+                    "usr": "s:18WeatherInformation10APIManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18WeatherInformation10APIManagerC14sharedInstanceACvgZ",
+                "mangledName": "$s18WeatherInformation10APIManagerC14sharedInstanceACvgZ",
+                "moduleName": "WeatherInformation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeRequest",
+            "printedName": "makeRequest(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18WeatherInformation10APIManagerC11makeRequest7request10completiony10Foundation10URLRequestV_ys6ResultOyxs5Error_pGctSeRzlF",
+            "mangledName": "$s18WeatherInformation10APIManagerC11makeRequest7request10completiony10Foundation10URLRequestV_ys6ResultOyxs5Error_pGctSeRzlF",
+            "moduleName": "WeatherInformation",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18WeatherInformation10APIManagerC",
+        "mangledName": "$s18WeatherInformation10APIManagerC",
+        "moduleName": "WeatherInformation",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WeatherInformation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIError",
+        "printedName": "APIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeatherInformation.APIError.Type) -> WeatherInformation.APIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIError",
+                    "printedName": "WeatherInformation.APIError",
+                    "usr": "s:18WeatherInformation8APIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeatherInformation.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WeatherInformation8APIErrorO6noDatayA2CmF",
+            "mangledName": "$s18WeatherInformation8APIErrorO6noDatayA2CmF",
+            "moduleName": "WeatherInformation"
+          },
+          {
+            "kind": "Var",
+            "name": "requestError",
+            "printedName": "requestError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeatherInformation.APIError.Type) -> (Swift.Error) -> WeatherInformation.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> WeatherInformation.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeatherInformation.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WeatherInformation8APIErrorO12requestErroryACs0E0_pcACmF",
+            "mangledName": "$s18WeatherInformation8APIErrorO12requestErroryACs0E0_pcACmF",
+            "moduleName": "WeatherInformation"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeatherInformation.APIError.Type) -> (Swift.Int) -> WeatherInformation.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> WeatherInformation.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeatherInformation.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WeatherInformation8APIErrorO11serverErroryACSi_tcACmF",
+            "mangledName": "$s18WeatherInformation8APIErrorO11serverErroryACSi_tcACmF",
+            "moduleName": "WeatherInformation"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WeatherInformation.APIError.Type) -> (Swift.Error) -> WeatherInformation.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> WeatherInformation.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WeatherInformation.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "WeatherInformation.APIError",
+                        "usr": "s:18WeatherInformation8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18WeatherInformation8APIErrorO13decodingErroryACs0E0_pcACmF",
+            "mangledName": "$s18WeatherInformation8APIErrorO13decodingErroryACs0E0_pcACmF",
+            "moduleName": "WeatherInformation"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18WeatherInformation8APIErrorO",
+        "mangledName": "$s18WeatherInformation8APIErrorO",
+        "moduleName": "WeatherInformation",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

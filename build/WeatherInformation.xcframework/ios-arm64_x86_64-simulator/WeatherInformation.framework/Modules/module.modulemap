@@ -1,0 +1,11 @@
+framework module WeatherInformation {
+  umbrella header "WeatherInformation.h"
+
+  export *
+  module * { export * }
+}
+
+module WeatherInformation.Swift {
+  header "WeatherInformation-Swift.h"
+  requires objc
+}

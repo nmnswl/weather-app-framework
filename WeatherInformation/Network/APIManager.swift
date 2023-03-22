@@ -12,7 +12,7 @@ public class APIManager {
     /**
      Method to make API request
      - parameter request: a URLRequest object
-     - parameter completion: a Result<T, E> object
+     - parameter completion: Completion handler
      */
     public func makeRequest<T: Decodable>(request: URLRequest,
                                    completion: @escaping NetworkServiceCompletion<T, Error>) {
@@ -21,7 +21,11 @@ public class APIManager {
             DispatchQueue.main.async {
                 if let error = error {
                     //When there is an error
-                    completion(.failure(error))
+                    completion(.failure(APIError.requestError(error)))
+                    return
+                }
+                if let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
+                    completion(.failure(APIError.serverError(statusCode: response.statusCode)))
                     return
                 }
                 guard let data = data else {
@@ -35,7 +39,7 @@ public class APIManager {
                     completion(.success(items))
                 } catch {
                     //When there is a decoding error
-                    completion(.failure(error))
+                    completion(.failure(APIError.decodingError(error)))
                 }
             }
         }

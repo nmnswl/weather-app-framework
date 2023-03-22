@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WeatherInformation
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import WeatherInformation
+import _Concurrency
+import _StringProcessing
+public typealias NetworkServiceCompletion<T, E> = (Swift.Result<T, E>) -> Swift.Void where T : Swift.Decodable, E : Swift.Error
+@_hasMissingDesignatedInitializers public class APIManager {
+  public static let sharedInstance: WeatherInformation.APIManager
+  public func makeRequest<T>(request: Foundation.URLRequest, completion: @escaping WeatherInformation.NetworkServiceCompletion<T, Swift.Error>) where T : Swift.Decodable
+  @objc deinit
+}
+public enum APIError : Swift.Error {
+  case noData
+  case requestError(Swift.Error)
+  case serverError(statusCode: Swift.Int)
+  case decodingError(Swift.Error)
+}
