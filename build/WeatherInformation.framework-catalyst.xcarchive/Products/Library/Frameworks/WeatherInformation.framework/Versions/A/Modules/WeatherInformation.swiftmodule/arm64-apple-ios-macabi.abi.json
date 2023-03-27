@@ -73,7 +73,7 @@
           {
             "kind": "Function",
             "name": "makeRequest",
-            "printedName": "makeRequest(request:completion:)",
+            "printedName": "makeRequest(request:decoder:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -85,6 +85,13 @@
                 "name": "URLRequest",
                 "printedName": "Foundation.URLRequest",
                 "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation11JSONDecoderC"
               },
               {
                 "kind": "TypeFunc",
@@ -119,8 +126,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18WeatherInformation10APIManagerC11makeRequest7request10completiony10Foundation10URLRequestV_ys6ResultOyxs5Error_pGctSeRzlF",
-            "mangledName": "$s18WeatherInformation10APIManagerC11makeRequest7request10completiony10Foundation10URLRequestV_ys6ResultOyxs5Error_pGctSeRzlF",
+            "usr": "s:18WeatherInformation10APIManagerC11makeRequest7request7decoder10completiony10Foundation10URLRequestV_AH11JSONDecoderCys6ResultOyxs5Error_pGctSeRzlF",
+            "mangledName": "$s18WeatherInformation10APIManagerC11makeRequest7request7decoder10completiony10Foundation10URLRequestV_AH11JSONDecoderCys6ResultOyxs5Error_pGctSeRzlF",
             "moduleName": "WeatherInformation",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
