@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GDhH2Lu+wB3smm+qw3UHZMlFAyI=
+		y7Z6dger3gqdHP2J/i0HJ4OPtV8=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3i672rcZeWQJ7uBZr48rWyRYrEA=
+		BPkmwuUMe8QgI229PdWCw7p9pEE=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		W7AGOQNBFerDQiOxSmeDkxJFrSQ=
+		gfZc1QZV1fqkup3tYjWNm83Aczk=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3i672rcZeWQJ7uBZr48rWyRYrEA=
+		BPkmwuUMe8QgI229PdWCw7p9pEE=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PqwDgbHASx2xpnNOEQ9JoGV3EAY=
+		gv8Gb4hWgNvrVIGpjxETsNPSFNI=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GDhH2Lu+wB3smm+qw3UHZMlFAyI=
+		y7Z6dger3gqdHP2J/i0HJ4OPtV8=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2KoRkOt19yA7rsGlJk6OQGMWzFw=
+		d0Tv3WEidHK0LZl2ka8pF/5szYE=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DL5eyr9nSAMR8u6zoJ4hwmBhgHk=
+		uw+rPIxl2QZuB9XvOHTKfEhvxrY=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2KoRkOt19yA7rsGlJk6OQGMWzFw=
+		d0Tv3WEidHK0LZl2ka8pF/5szYE=
 		</data>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UmR9zjdvhv7JAzdAVceZ8plvXnM=
+		JTXYS3QbSYRdblKSo63hFu0Pa8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0iQx3fwBLV8rJoeuWr8T/A1EWPtenFb7k6pkypYNozA=
+			fBw+WJYMbepe8J71Gm5eAN83sJGrOeab2F0BiKl2lm4=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ljv0s5Atx62ENM8IWIC0+VShUQZiJyI/jAaud++sMOo=
+			VJ5zE9nRBRMPx3aXoPd0GFnoJxXmuHPNRgEUTWFH0Yg=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Pk70LcRpHdNQOMOaQ9Aw23pzLbgF7gGhDhnA0Ysof0=
+			wwIpbwBdtnItX0p0QfN9/Q1qmKYbLF9+iMW76nf/PWA=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ljv0s5Atx62ENM8IWIC0+VShUQZiJyI/jAaud++sMOo=
+			VJ5zE9nRBRMPx3aXoPd0GFnoJxXmuHPNRgEUTWFH0Yg=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aHAJtX74TSKj0VerFBzj33pZdNQxCNvTjZS9+74wSPk=
+			Bu4xoAraKwwZG9bcqM4hFw3WpHKojJ560KA/99LCGAA=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0iQx3fwBLV8rJoeuWr8T/A1EWPtenFb7k6pkypYNozA=
+			fBw+WJYMbepe8J71Gm5eAN83sJGrOeab2F0BiKl2lm4=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tx7Ef36IPcbVMsMxxVJGhS09iPeDI+HF0q72qimtUOg=
+			+13uwCHIPs4wgukcUxRgBT+Fy/RFY8lNffnzjyOYxqk=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HatC9ydFcPf1wKUo3KO2bGUpqKFfj4dFCXRm2hPrcQ0=
+			Wsa/tJZr/631nYV6S6j8WmtCi+sMMhYBpaDQacYVDLU=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tx7Ef36IPcbVMsMxxVJGhS09iPeDI+HF0q72qimtUOg=
+			+13uwCHIPs4wgukcUxRgBT+Fy/RFY8lNffnzjyOYxqk=
 			</data>
 		</dict>
 		<key>Modules/WeatherInformation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mAOlymXkscI4UkdeKEZW+wXHbm067r1JEgRdheSjk1s=
+			y66/EcVy+PfrOfoC9i1ySGSHx9AJuyWR09mHE+3XTfs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

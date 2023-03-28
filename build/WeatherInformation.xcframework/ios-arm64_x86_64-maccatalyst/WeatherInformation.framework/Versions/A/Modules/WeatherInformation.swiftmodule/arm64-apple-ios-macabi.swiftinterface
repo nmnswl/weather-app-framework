@@ -10,7 +10,7 @@ import _StringProcessing
 public typealias NetworkServiceCompletion<T, E> = (Swift.Result<T, E>) -> Swift.Void where T : Swift.Decodable, E : Swift.Error
 @_hasMissingDesignatedInitializers public class APIManager {
   public static let sharedInstance: WeatherInformation.APIManager
-  public func makeRequest<T>(request: Foundation.URLRequest, decoder: Foundation.JSONDecoder = JSONDecoder(), completion: @escaping WeatherInformation.NetworkServiceCompletion<T, Swift.Error>) where T : Swift.Decodable
+  public func makeRequest<T>(request: Foundation.URLRequest, completion: @escaping WeatherInformation.NetworkServiceCompletion<T, Swift.Error>) where T : Swift.Decodable
   @objc deinit
 }
 public enum APIError : Swift.Error {

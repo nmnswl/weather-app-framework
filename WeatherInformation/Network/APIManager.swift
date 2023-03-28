@@ -15,7 +15,6 @@ public class APIManager {
      - parameter completion: Completion handler
      */
     public func makeRequest<T: Decodable>(request: URLRequest,
-                                              decoder: JSONDecoder = JSONDecoder(),
                                           completion: @escaping NetworkServiceCompletion<T, Error>) {
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
             guard let _ = self else { return }
@@ -36,7 +35,7 @@ public class APIManager {
                 }
                 do {
                     //Decoding JSON
-                    let items = try decoder.decode(T.self, from: data)
+                    let items = try JSONDecoder().decode(T.self, from: data)
                     completion(.success(items))
                 } catch {
                     //When there is a decoding error
